@@ -1,0 +1,456 @@
+Aliases,Description,Attribution (If any)
+acidbox,Targeted malware that exploits VirtualBox,
+artradownloader/artra/bitterartra/bitartra,Downloader of bitterrat,bitter
+egregor/egregorransom,"Ransomware, variant of sekhmet and maze",
+redaman,Banking trojan,
+ryuk/ryukran/ruyk,Ransomware that targets enterprise environments,wizardspider
+valak,"Downloader of ursnif,icedid",ta551
+icedid,"Banking trojan, malware downloader",
+pushdo,Downloader of cutwail,
+zebrocy,Backdoor with variants written in multiple languages,sofacy/sednit/fancybear/apt28
+cannon,Exfiltrate system information via email,sofacy/sednit/fancybear/apt28
+stonedrill/stoned/dropshot,Disk wiper with similarities to Shamoon,
+nanocore/noancooe/nancrat/nanoco,RAT with plugin framework,
+netwire/netwiredrc/netwired/wirenet/netweird,Commercial RAT,
+shapeshift,Disk wiper with ties to Iranian threat groups,
+turnedup/notestuk,Backdoor with ties to Iranian threat groups,
+roguerobin,Trojan that uses Google Drive for C&C,darkhydrus
+retriever,.NET downloader,magichound campaign
+leash,IRC Bot,magichound campaign
+mpkbot,IRC bot similar to mpk trojan attributed to rocketkitten,magichound campaign
+powerstats/powermud,Multi-stage backdoor,muddywater/seedworm/statickittenhttps://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-espionage-group
+sharpstats,.NET backdoor,muddywater/seedworm/statickitten
+delphstats/delpstats,Delphi backdoor,muddywater/seedworm/statickitten
+ismagent,Variant of ismdoor that uses DNS tunneling for C&C,oilrig/apt34/helixkitten
+isminjector/isminject,Injects ismagent into remote process,oilrig/apt34/helixkitten
+oopsie,trojan delivered via threedollars document,oilrig/apt34/helixkitten
+rgdoor,IIS backdoor,oilrig/apt34/helixkitten
+foudre,"Variant of infy, infostealer and keylogger",princeofpersia campaign
+rarog/raroger,Trojan that mines monero cryptocurrency,
+samsam/samas/samsa/ransmsam/crypsam/samsamcrypt,Ransomware with multiple extensions,
+rc2fm,Backdoor that can exfiltrate documents and photos,invisimole
+comrat/chinch,Variant / updated version of agentbtz,turla/snake/venomousbear
+polyglotduke,Uses social media sites for C&C,dukes/apt29/cozyduke/cozybear
+miniduke,Small backdoor dropped by polyglotduke or regduke,dukes/apt29/cozyduke/cozybear
+fatduke,Sophisticated backdoor dropped by miniduke,dukes/apt29/cozyduke/cozybear
+poisonplug/shadowpad/bairlay,Modular backdoor,winnti group/apt41
+portreuse/lowkey,Backdoor that injects into a process listening on a TCP port,winnti group/apt41
+winnti/highnoon/rbdoor/ribdoor,RAT with rootkit functionalty,winnti group/apt41
+attor,"Modular, targeted cyberespionage platform targeting Russia",
+ketrican,Backdoor dropped by okrum,ke3chang group/apt15
+ratvermin/vermin/vermrat,.NET backdoor,
+sobaken,"RAT, variant of quasar",
+quasar/quasarrat/cinarat,Open-source RAT,
+gazer,Backdoor that uses custom encryption,turla/snake/venomousbear
+seduploader,Reconnaissance malware with droper and payload components,sofacy/sednit/fancybear/apt28
+xagent/chopstick/splm,Modular backdoor targeting multiple operating systems,sofacy/sednit/fancybear/apt28
+sedreco/azzy,Modular backdoor,sofacy/sednit/fancybear/apt28
+xtunnel/xaps,Network proxy tool,sofacy/sednit/fancybear/apt28
+downdelph/delphacy/delphocy,Lightweight Delphi downloader sometimes deployed with bootkit,sofacy/sednit/fancybear/apt28
+phantomnet/smanager,Backdoor used as part of a supply-chain attack in Vietnam,operation signsight
+plugx/korplug/gulpix/sogu,Notable RAT used in multiple target attack campaigns,
+crutch,Backdoor that exfiltrates files to Dropbox,turla/snake/venomousbear
+xddown,Downloads additional modules used by xdspy APT group,xdspy
+mekotio/melcoz,Banking trojan with a module for stealing bitcoin wallets,
+pipemon,Modular backdoor,winnti group/apt41
+mikroceen,RAT with similarities to microcin and byeby malware,
+ramsay,Cyberespionage toolkit that works in air-gapped networks,
+netflash,.NET downloader,turla/snake/venomousbear
+skipper,Backdoor that can download carbon,turla/snake/venomousbear
+deprimon,Modular downloader with novel installation technique,
+balkandoor/balkandoor2/balkandoor3,Simple backdoor targeting the Balkans,
+varenyky,Spambot related to sextortion campaign targeting France,
+plead/pleed,backdoor targeting taiwan,blacktech/palmerworm
+gootkit/otlard,Multi-stage banking trojan with links to danabot,
+trickbot/trickster/totbrick/trickybot/trick/hptrickbot/trickbotmodule/trickbt,Modular banking trojan that steals credentials and sensitive info,
+ursnif/gozi/goziisfb/isfb/dreambot/hpursnif/wastenif,Banking trojan,
+emotet/emotetu/emotetc/emotetcrypt/emotetent/emotetedcryptc,Banking trojan known to download trickbot and ryuk,
+kasidet/neutrino/mwzlesson/casdet,DDoS bot,
+sathurbot,"Backdoor known to download boaxxe, kovter, and fleercivet",
+nymaim,Downloader with infostealing and system profiling capabilities,
+remtasu,Steals Facebook credentials and other user info,
+sunburst,Backdoor in SolarWinds supply-chain attack,
+kegtap/bazarloader/bazaloader/team9loader,Loader with ties to trickbot campaigns,
+beerbot/bazarbackdoor/team9backdoor,Backdoor with ties to trickbot campaigns,
+clop/klopransom/clopransom/ploc,Ransomware with .CLOP extension,
+darkcrystal/dcrat,RAT sometimes bundled with plurox,
+maze/mazeransom/mazedec/chacha,Ransomware with random extension,
+evilnest,Used in campaign targeting Hong Kong,
+silentnight,"Banking trojan, variant of zeus",
+dridex/drixed,Banking trojan,ta505
+boostwrite,In-memory-only loader that abuses DLL load order,fin7/carbanak group/anunak group/carbonspider
+tonedeaf,Backdoor that can collect system information,oilrig/apt34/helixkitten
+longwatch,Keylogger,oilrig/apt34/helixkitten
+pickpocket,Browser credential-theft tool,oilrig/apt34/helixkitten
+azorult/rultazo,Comercial infostealer ,
+phorpiex/trik,Botnet based on sdbot that distributes multiple malware families,
+gandcrab/gandcrypt/gandcrab4/ransomgandcrab/gandcrabv4/grandcrab/hpgandcrab/gandcrab04,Ransomware with .crab extension,pinchyspider
+locky/lockycrypt/hplocky,Ransomware with .locky and other extensions,ta505
+prometei/prometeiauxiliarymodule,Botnet that mines cryptocurrency,
+shamoon/disttrack,Disk wiper targeting Saudi Arabia,shamoon group
+zegost/gh0st/gh0strat/farfli,RAT associated with multiple Chinese APT groups,
+guildma/astaroth,Banking trojan written in Delphi that targets Latin America,
+montysthree/mt3,"Rare, modular C++ toolset used in industrial espionage",
+mosaicregressor/mosaic,"Multi-stage modular framework, compromised UEFI firmware",
+wastedlocker/wasted/wslocker,"Ransomware with ""wasted"" in the extension",evilcorp gang
+vhd/vhdlocker,Ransomware that gathers victims' files in a virtual hard disk,
+darkvnc,Backdoor that gives access to infected system via VNC protocol,
+revil/sodinokibi/sodin/sodinokib/sodinok,Ransomware used in Kaseya attack,pinchyspider
+kbot/kpot/bolek/bolik,File infector that steals banking and personal data,
+predator/predatorthethief,Data stealer developed by Russian-speaking cybercriminals,
+smokeloader/mokes/smokebot/dofoil/sharik/smokeload,"Modular loader, not the same as cross-platform mokes backdoor",
+cutletmaker/atmletcut/cutlet/atmcutsteal,ATM malware used in jackpotting attacks on ATMs in Germany,
+expetr/notpetya/nyetya/expetya/eternalpetya/npetya/nonpetya,Disk wiper (appearing to be ransomware) spread by EternalBlue,sandworm/telebots/voodoobear
+xpan/xratlocker,Ransomware targeting Brazil,teamxrat
+pony/fareit/ponystealer/ponik/ponyrat,Infostealer that is known to download a variety of payloads,
+blackenergy/blacken/fonten,"Originally DDoS malware, also targets critical infrastructure",sandworm/telebots/voodoobear
+lodarat/loda,AutoIT RAT,
+crimsonrat/crimson/scarimson/crimsonnet/crimsonratfc/seedoor,.NET RAT,operation transparenttribe/operation cmajor/apt36
+zeus/zbot,Notable banking trojan with numerous variants,
+zeuspanda/pandabanker/panda/pnda,Variant of zeus banking trojan,
+crypt0l0cker/torrentlocker/teerac,Ransomware with .enc extension,
+njrat/bladabindi/bladabin/bbindi/bladab/hpbladabi,JAVA RAT,
+konni/virkonni/konny,RAT targeting North Korea,
+jaff/jaffrans/jaffcrypto/crypjaff,Ransomware,
+athenago/athena/athenrat,RAT written in Golang,
+flokibot/floki,Variant of zeus banking trojan,
+cryptowall/cryptodef/crowti/cryptodefense/crypwall/cryptowall3/cryptowall4/cwall,Ransomware with .cryptowall extension,
+teslacrypt/tescrypt/cryptesla/hpcryptesla,Ransomware with multiple extensions,
+asyncrat/async,Commercial RAT,ta2719
+cotxrat/cotx,C++ RAT,ta428/operation lagtimeit
+qbot/qakbot/quakbot/pinkslipbot/pinksbot/qbotcore,Modular infostealer with banking trojan capabilities,
+dharma/crysis/wadhrama,"Ransomware with .dharma, .crysis, and other extensions",
+chtonic/chthonic,Variant of zeus banking trojan,
+netsupport/netsup/netsupportmanager,Commercial RAT,
+moker/yebot/tilon,Elusive trojan delivered by rigv exploit kit,
+virlock/nabucur/polyransom/virransom/virrnsm/virlocker,Polymorphic file infector ransomware,
+zcrypt/zcryptor,Ransomware that can spread via USB sticks,
+powgoop/covic/powtgoop,Loader that decrypts and runs powershell-based downloader,muddywater/seedworm/statickitten
+hussarini/sarhust/endcmd,Backdoor targeting southeast Asia,
+warzone/warzonerat,RAT that reuses code for UAC bypass from avemaria infostealer,
+avemaria/avemariarat/maria,Commercial infostealer that reuses publicly available code,
+upaskit/rombrast/upas,Shares similarities to kronos banking trojan,
+indigodrop/indigo,Modular dropper known to drop cobaltstrike beacons,
+peppyrat/pepperat/peppy,Python RAT with similarities to crimson,
+wannacry/wannacryptor/wanna/wannacrypt/wcry/wanacry/ransomwannacry/wcryg/wanacrypt/wanacrypt0r/wanacryptor/wanacryptbttc/wannacryptttc/wannacryptcttc/wana,Ransomware that spreads via EternalBlue exploit,lazarus group/hiddencobra
+crat,RAT with capability to download plugins,lazarus group/hiddencobra
+medusalocker/medusaransom,Ransomware with multiple extensions,
+olympicdestroyer/olydest/olympicdestroy/olydestroy/olympic/olympicdistroyer,Destructive malware that targeted the Pyeongchang Olympics,
+copperhedge/bankshot/manuscrypt,RAT targeting banking and cryptocurrency organizations,lazarus group/hiddencobra
+zerot,Trojan that downloads plugx,ta459
+andromeda/gamarue/androm/wauchos/andromcrtd,Bot with modular plugin functionality,
+xmrig/malxmr/xmrminer/toolxmr/xmr,Cryptocurrency miner,
+spark,Backdoor,molerats/gazacybergang/operation parliament
+flawedammyy/ammyrat/flawedammy,RAT targeting retailers and financial institutions,ta505
+carbanak/anunak,Backdoor based on carberp,fin7/carbanak group/anunak group/carbonspider
+neutrino/kasidet/neutrinobot/neutrinopos/hpkasidet/neupos,"Botnet, a known version also targets PoS terminals",
+sagerunex/sagrunex,Backdoor targeting southeast Asia,thrip
+fallchill,"RAT targeting aerospace, telecom, and finance industries",lazarus group/hiddencobra
+cryptoshuffler/shuffler/cryptoshuf,Replaces bitcoin wallets in clipboard to steal cryptocurrency,
+wali,"Variant of xxmm backdoor, likely evolution of shadowwali",tick/bronzebutler
+7ev3n/seven/emper/empercrypt,Ransomware that asks for 13 BTC,
+ovidiy/ovidiystealer/yidivo,Credential stealer targeting Russia,
+sage/sagecrypt/sagelocker/sage2,Ransomware with .sage extension,
+ploutus/ploutusatm/plotus,ATM-dispensing malware targeting Mexico,
+cerber/zerber/crbr/crbrencryptor,Ransomware with multiple extensions,
+winpot/atmpot/winatm,ATM-dispensing malware,
+jimmy,Variant of neutrinopos ,
+skimer,Steals banking information from ATMs,
+bandook/bandok/bandoo,Commercial RAT written in C++ and Delphi,operation manul/darkcaracal
+magala/malaga,Trojan that clicks advertizements,
+remcos/remcosrat/socmer/rescoms,Commercial RAT sold by Breaking Security,
+cryptxxx/cryptprojectxxx,Ransomware similar to reveton,
+bedep/bedep64/rozena,Known to drop information stealers and ransomware,
+treasurehunt/treasurehunter/huntpos,POS malware that exfiltrates credit card data,
+discordiaminer/discordia,Open-source trojan known to download cryptocurrency miners,
+lokibot/loki,"Infostealer, different from loki Android malware",
+goznym,"Trojan, hybrid of nymaim and goziisfb",
+ramnit/rmnet/ramnitplugin/nimnul,File infector banking trojan,
+latentbot,Modular trojan written in Delphi with keylogging capabilities,
+try2cry/trytocry,Ransomware that can spread via USB flash drives,
+hoplight/hangman,Backdoor that uses a built-in proxy application to hide C&C,lazarus group/hiddencobra
+centerpos/cerebrus,Memory scraper that extracts payment card info from memory,
+agenttesla/agentesla/agensla,Infostealer with keylogging capabilities,
+datper,Can execute shell commands and query victim computer info,tick/bronzebutler
+danabot/danabotent,Modular banking trojan written in Delphi,
+evotob,Trojan,
+nanolocker,"Ransomware, encryption can be stopped by shutting down system ",
+remexi/cachemoney,Modular infostealer written in C,chafer/apt39/remixkitten
+tyupkin/padpin/pinpad/sidkey,ATM-dispensing malware targeting eastern Europe,
+mgbot/mgmbot/blame,Loader that uses anti-analysis and anti-virtualization techniques,
+nazar,RAT with modules based on open-source libraries,nazar group
+formbook/xloader,Commodity infostealer that targets both Windows and Macs,
+atmripper/ripperatm/atmrip/atmrippery/atrip/atmoripper,ATM malware that uses corporate network as infection vector,
+atmosphere,ATM malware,
+plurox,Modular backdoor written in C,
+killdisk/disakil,Destructive malware that targeted Ukraine's financial sector,sandworm/telebots/voodoobear
+atmspitter,Command-line tools for controlling ATM cash dispenser,
+buer/buerloader/buerak,Commercial downloader used to deliver further malware,
+reactorbot,Banking trojan requently mislabeled as rovnix,
+bergard,Trojan used in the Forbes watering hole attack,c0d0so/apt19
+padcrypt/crydap,Ransomware with live chat support,
+catchamas/chatchamas,Infostealer,thrip
+typeframe,Modular RAT,lazarus group/hiddencobra
+arkei/arkeistealer,Infostealer that dumps cryptocurrency wallet private keys,
+krakencryptor/kraken/krakenb/krakryp,Ransomware,
+zloader/deloader/terdot/zlader,Loader that downloads variant of zeus banking trojan,
+prilex,ATM malware targeting Brazil,
+greendispenser,ATM-dispensing malware similar to tyupkin,
+lockergoga/goga/gogalocker/lockergogari,Ransomware,
+hancitor/chanitor,Downloads additional malware,
+kronos/osiris/kronosbot/konus,Banking trojan developed by Marcus Hutchins,
+vivaciousgift,Network proxy tool,lazarus group/hiddencobra
+wellmess,RAT written in .NET and Golang,dukes/apt29/cozyduke/cozybear
+urlzone/bebloh/shiotob,Banking trojan targeting Europe,
+usbculprit,Exfiltrates data through USB media,cycldek/hellsing/goblinpanda
+rokrat/dogcall,RAT that uses twitter and cloud storage for C&C,scarcruft/apt37
+octopus/rctopus,Trojan written in Delphi that targets Central Asia and diplomats,dustsquad
+alice/pralice/projectalice/aliceatm,ATM-dispensing malware,
+systembc,SOCKS5 proxy malware,
+adylkuzz/adylkuzzminer,Cryptocurrency miner that propagates via EternalBlue,
+tinyloader,Downloader that uses custom protocol for downloading payloads,
+bezigate,Shares infrastructure with peppyrat,operation transparenttribe/operation cmajor/apt36
+magniber,Ransomware,
+shakti/shakstiler,Steals documents from infected computer,
+dmalocker/dmalock/madlocker/dmalockr,Ransomware,
+masslogger,.NET credential stealer,
+kghspy,Modular spyware suite,kimsuky
+anchor/anchorbot,Backdoor used selectively on high-profile targets,
+anchordns/anchorbotdns,Backdoor that uses DNS to communicate with C&C,
+itranslator,Driver-based malware that performs MITM attack,
+babymetal,Backdoor,fin7/carbanak group/anunak group/carbonspider
+driftpin/toshliph/agentorm,Simple backdoor used to assess victims,
+queenofhearts/powerpool/popool,Backdoor similar to kingofhearts,iamtheking
+kingofhearts,Backdoor with anti-debugging and anti-virtualization capabilities,iamtheking
+queenofclubs,"C++ backdoor, variant of slothfulmedia",iamtheking
+bluecore,Variant of newcore RAT,cycldek/hellsing/goblinpanda
+newcore/newcorerat,RAT that may be derived from pcclient and pccortr source codes,cycldek/hellsing/goblinpanda
+mamba/hddcryptor/hddcrypt/dcryptor/mambretor,Ransomware,
+lurk,Banking trojan targeting Russia,
+chinachopper/chopper,Webshell that executes .NET code in HTTP POST commands,
+hawkeye,Commercial keylogger,
+atmii,ATM-dispenser malware,
+ligsterac/ligsetrac,ATM malware,
+dnspionage/dnspinoage/agentdrable,Backdoor written in C,oilrig/apt34/helixkitten/dnspionage campaign
+karkoff/maildropper/cactuspipe,Lightweight malware similar to dnspionage,oilrig/apt34/helixkitten
+gravityrat/gravity,RAT used to target the Indian millitary,
+cannibalrat/canbalral,Python RAT targeting Brazil,
+get2/getandgo/friendspeak,Downloads additional malware,ta505
+flawedgrace/gracewire,C++ RAT,ta505
+poisonivy/poison/pivy/spivy,RAT used by a wide range of threat actors,
+kovter/kotver,"Multiple evolutions with history of click fraud, currently fileless ",
+philadelphia,Variant of stampado ransomware,ta505
+fleercivet,Ad fraud malware,
+mrwhite,Delphi dropper that scans infected system for PoS malware,
+rockloader,Intermediate loader for locky,ta505
+blackmoon/krbanker,Banking trojan targeting South Korea,
+darkcomet/fynloski/darkkomet,RAT used in 2011 Syrian civil war,
+baldr/baldrstealer/baldir,Commercial stealer,
+petya/petr,Ransomware,
+eccentricbandwagon/pslogger,Keylogger that can capture screenshots,lazarus group/hiddencobra
+metamorfo/casbaneiro,Banking trojan that originated in Brazil,
+birddog/socksbot/nadrac,Backdoor,
+badrabbit,Ransomware worm similar to notpetya,
+tinba/tinybanker/zusy/tina,Banking trojan with small file size,
+fortunecrypt,Ransomware written in Blitz BASIC,
+teardrop,Memory-only dropper used in SolarWinds supply-chain attack,
+obliquerat/oblique,.NET RAT targeting Southeast Asia,
+parallax/parallaxrat,RAT that uses process hollowing with direct syscalls for AV evasion,
+skimerwc,ATM malware,
+helloworld,ATM malware,
+ranscam/fakelock/falock/fakeransomdel,Ransomware that deletes users' files with no chance of recovery,
+sdbbot,C++ RAT downloaded by get2,ta505
+servhelper/bacservhelper,Backdoor written in Delphi,ta505
+cobint/coolpants,Reconiassance backdoor,cobalt group
+advisorsbot,Downloader written in C with anti-analysis capabilities,
+godzilla/godzillaloader/dagozill,Downloads additional malware,
+vawtrak/neverquest/catch/grabnew,"Steals banking, email, browser, and FTP information ",fin6
+thanatos/alphabot,Commercial trojan with form grabbing and other plugin capabilities,
+rekaf,Bot that collects and exfiltrates system information,
+virdetdoor,Backdoor used for delivery to systems infected with rekaf ,
+powerspritz/powspritz,Payload and powershell encrypted using Spritz algorithm,lazarus group/hiddencobra
+guloader/cloudeye,"Downloads an XORed payload, often from Google Drive",
+vidar/vidarstealer,Stealer that is a variant of arkei,
+avzhan,DDoS bot,
+blind/blindransomware/napoleon,Ransomware,
+spora,Ransomware with a professional-looking ransom payment site,
+satana/satan,Ransomware,
+rokku/rokkulck,Shares similarities with chimera ransomware,
+pekraut,.NET RAT likely created in Germany,
+sectoprat/1xxbot/asatafar/arechclient/secptoprat/sectop,.NET RAT that has some unimplemented components,
+rurktar/rurtar/rcsu,Trojan spy that was still in development when first reported,
+nemty,Ransomware,
+kwampirs,Modular backdoor worm that spreads via SMB,orangeworm
+felismus/tomyjery,Backdoor targeting southeast Asia and South America,sowbug
+dyre/dyreza/dyzap/dyranges,Targets online banking websites to perform ACH and wire fraud,
+rapidransomware/rapid/rapidransom,Ransomware,ta505
+radrat,RAT that uses hash dumping and pass-the-hash for lateral movement,
+blindingcan/dratzarus/blindingcan00,RAT that uses multiple levels of obfuscation and encryption,lazarus group/hiddencobra
+sorefang,First-stage downloader that exfiltrates system information via HTTP,dukes/apt29/cozyduke/cozybear
+taintedscribe,Modular implant with wide range of capabilities,lazarus group/hiddencobra
+badcall,Proxy server with fake TLS method,lazarus group/hiddencobra
+deathransom/wacatac,Ransomware that doesn't encrypt - just changes file extension,
+triton/trisis/hatman,ICS malware targeting Triconex Tricon safety controllers,xenotime
+ransomexx/ransomx/exx,Ransomware similar to defray777,
+milum,C++ trojan targeting the Middle East,operation wildpressure
+darktequila/darkteq,"Steals financial information and credentials, targeting Mexico",
+synack/acknys/ransomsynack,Ransomware using process doppelganging,
+fakecry/fakewcry,Ransomware imitating wannacry,
+atmitch,ATM malware targeting Russian banks,
+atmwizx,Automatically dispenses all cash from ATM,
+suceful,Sophisticated ATM malware that can steal physical debit cards,
+glitchpos,POS malware that steals credit card numbers,
+imminent/imminentmonitor/imminentrat/immirat,Commercial RAT,
+emdivi,Backdoor targeting companies in Japan and the US,menupass/apt10/stonepanda
+navrat,RAT with keylogging capabilities,scarcruft/apt37
+freenki/freenkiloader,Gathers info about infected system and downloads payload,scarcruft/apt37
+hupigon,RAT used in campaign targeting US higher education,
+redline/redlinestealer,Steals credentials and credit card info from browsers,
+psixbot/psix,Modular bot with sextortion module,
+amadey,Simple bot that collects system information,ta505
+trat,Modular RAT written in Delphi,
+hermes/hermesransomware/hermesran,Ransomware used by lazarus group to hide evidence in FEIB hack,
+quantloader,Commercial trojan that downloads additional malware,
+globeimposter/fakeglobe/purgen,Ransomware,ta505
+mole/moleransomware/moleransom/molecrypto,Variant of cryptomix ransomware,
+cyst/cystdownloader/cystea,Downloads DLL plugins,cobalt group
+abaddonpos,"POS malware with small filesize, same threat actor as tinypos",
+stillerx/stiller,Credential stealer module that targets a wide range of applications,
+cryptfile2/cryptomix,Ransomware,
+jolob,"Shares infrastructure with gh0st, plugx, and bergard",
+ratankbapos,POS malware targeting south korea,lazarus group/hiddencobra
+buran,"Delphi ransomware, variant of vegalocker and jumper",
+zeppelin,Variant of buran ransomware,
+phobos,Ransomware that shares similarity to dharma,
+seon,Ransomware,
+kuik/kuikdelivery,Adware that joins infected systems to domain controller,
+princesslocker/princess,Ransomware with similarities to cerber,
+diamondfox/gorynch/gorynych/diamondfoxcrystal,Commercial modular botnet,
+mischa,Ransomware dropped with petya,
+icerat,RAT written in JPHP,
+osno/babax/osnostealer/babaxstealer/osnocrypt,Stealer that evolved into unfinished ransomware,
+cryptbot,Infostealer,
+silentbruter,Guesses credentials to online accounts,
+garrantydecrypt/garrantdecrypt/garrandec/garranty,Ransomware that encrypts all files regardless of extension,
+hannotog,Backdoor used with sagerunex and catchamas,thrip
+pirpi/cookiecutter/shotput,Backdoor known to be used with filensfer,apt3/buckeye/gothicpanda
+filensfer,"Has C++, compiled Python, and Powershell versions",
+odinaff,First-stage malware used in attacks on financial organizations,
+funnydream/funnydreambackdoor,Backdoor with multiple persistence mechanisms and droppers,
+kingminer/kingmine,Botnet that infects SQL servers by brute-forcing credentials,
+raccoonstealer/raccoon/racealer/racoon/mohazo,Commercial infostealer that can steal multiple types of data,
+yoddos,Trojan used in scranos botnet to distrubute cryptocurrency miners,
+bistromath,Full-featured RAT with sandbox evasion capabilities,lazarus group/hiddencobra
+electricfish,Command-line tool for tunneling network traffic,lazarus group/hiddencobra
+keymarble/keymar,Backdoor/RAT,lazarus group/hiddencobra
+cspy,Evasive downloader,kimsuky
+ekans/snakelocker/snakehose/snakeransom,Ransomware writen in Golang,
+bioload,Likely an early version of boostwrite,fin7/carbanak group/anunak group/carbonspider
+jigsaw/jigsawlocker,Ransomware,
+nonransomware,Ransomware that encrypts all files on local drives except C:\Windows\,
+simplecred,Lateral movement tool,fin7/carbanak group/anunak group/carbonspider
+chessylite,Uses Namecoin domains in C&C infrastructure,
+zyklon,Commmercial modular backdoor with keylogging capabilities,
+gamefish,Small backdoor targeting Europe,sofacy/sednit/fancybear/apt28
+xdata,Ransomware prevalent in Ukraine,
+nitol,Botnet disrupted by Microsoft takedown in 2012,
+multigrain/multigrainpos/multigraincrtd/multigpos,Variant of newposthings POS malware,
+crackshot,Backdoor inserted into legitimate games developed in Eastern Asia,winnti group/apt41
+gearshift,Memory-resident dropper for keylogger DLLs,winnti group/apt41
+jumpall,"Known to drop highnoon, zxshell, and sogu",
+yatron,Ransomware with .yatron extension,
+keypass,Variant of stop ransomware with .KEYPASS extension,
+hyperbro,In-memory RAT used in watering-hole attacks on government websites,luckymouse/emissarypanda/apt27
+finspy/finfisher/finfish,RAT sold to governments and law enforcement,gammagroup
+cowersnail/cwrsnail,Cross-platform backdoor,
+contopee/whiteout,Proxy-aware backdoor,apt38
+blacklambert,Backdoor used to target high-profile organization in Europe,longhorn/lamberts
+petrwrap,Contains custom version of petya v3,
+crypy,Python ransomware that drops additional php scripts,
+polyglot/marsjoke/jokemars,Ransomware imitating ctblocker,
+supernova,Allows C# source code injection into SolarWinds Orion web app,
+nibiru,.NET ransomware with .Nibiru extension,
+jhonerat,Cloud-based Python RAT targeting the Middle East,
+ceidpagelock,Rootkit distributed by the rig exploit kit targeting China,
+piolin,ATM malware based on ploutus,
+atmtest,Multi-stage ATM malware,
+neopocket,Information stealer targeting Diebold ATMs,
+xxmm/minzen,RAT used concurrently with datper,tick/bronzebutler
+poohmilk/poohmilkloader,Launches freenki,scarcruft/apt37
+sepulcher,Basic RAT targeting Europe,ta413
+hakbit,Variant of thanos ransomware,
+snatch,Ransomware that boots computers into safe mode,
+andromut/gelup,Loader that uses a UAC bypass,ta505
+parasitehttp,Commercial modular RAT with multiple evasion techniques,
+nocturnal/nocturnalstealer,Infostealer written in C++,
+vega/vegastealer/vegast,Steals credentials and credit card info from browsers,
+pykbot/pkybot/tbag,Variant of bublik infostealer,
+sigma,Ransomware with no file extension,
+retefe/werdlod,"Banking trojan, later versions use EternalBlue for lateral movement",
+defray/defraycrypt/glushkov,Ransomware targeting healthcare and other industries,
+ransoc,Browser locker ransomware,
+hadeslocker/hades,Ransomware with extension starting with .~HL,
+bart/bartcrypt/bartz,Ransomware with identical payment portal to locky,ta505
+ruckguv,Downloader known to download pony modules and vawtrak,
+roilocker/manamecrypt/cryptohost,Ransomware that moves files into password-protected RAR file,
+brlock,.NET ransomware targeting Russia,
+mmlocker,Ransomware with .locked extension,
+reveton,Ransomware similar to cryptxxx,
+h1n1loader/h1n1,"Loader that can steal credentials, known to load pony DLLs and vawtrak",
+tvspy/teamspy/tvrat/teamviewerent,RAT utilizing teamviewer targeting retail and hostpitality industries ,
+luminositylink/luminosityrat,Commercial RAT taken down by UK-led operation,
+beendoor,XXMP-based trojan that can take screenshots of desktop,operation transparenttribe/operation cmajor/apt36
+raindrop,Loader for CobaltStrike used in SolarWinds supply-chain attack,
+intelrapid,Cryptominer disguised as legitimate Intel software,
+eris,ransomware with .ERIS extension,
+lockcrypt,Ransomware that spreads by brute-forcing RDP credentials,
+shione,Ransomware that encrypts files with both RSA and AES,
+scarab,Ransomware that increases ransom price the longer the victim waits,
+scarabey,Variant of scarab ransomware,
+telecrypt,Ransomware that abuses Telegram for C&C,
+pokemongo/pogotear/pokemong,Variant of hiddentear ransomware,
+venuslocker/venuslock/venuslk,.NET Ransomware with multiple extensions,
+betabot/neurevt,Sophisticated infostealer with user-land rootkit capabilities,
+maktub/maktublocker/takbum/takabum,Ransomware with random 4-6 character extension,
+lechiffre,Ransomware with .LeChiffre extension,
+ransom32,Ransomware written in Javascript,
+cyrat,Ransomware with .CYRAT extension,
+crypt888/crypteight/choda,Ransomware that appears to be poorly written,
+adchiate,AutoIT malware targeting Chinese browsers,
+stampado/stampedo,Commercial ransomware that deletes a random file every 6 hours,
+htran/htran2,HUC proxy malware used by multiple Chinese APT groups,
+vcrodat,Loader run using DLL load-order hijacking,whitefly
+starloader,Loader that installs felismus,sowbug
+dorshel,Commodity backdoor known to be used by dragonfly/energeticbear,
+heriplor,Custom backdoor targeting the energy sector,dragonfly/energeticbear
+daserf/muirim/nioupale,Backdoor that can take screenshots and log keystrokes,tick/bronzebutler
+dripion,"Backdoor targeting Taiwan, Brazil, and the US",
+chinoxy/chinoxybackdoor,Backdoor known to deploy pcshare RAT,
+fastcash,ATM jackpotting malware targeting Asia and Africa,lazarus group/hiddencobra
+pebbledash,Full-featured beaconing implant,lazarus group/hiddencobra
+buffetline,Full-featured beaconing implant,lazarus group/hiddencobra
+artfulpie/artfulpi,Downloads and loads DLLs in memory from hard-coded URL,lazarus group/hiddencobra
+hotcroissant,Full-featured beaconing implant,lazarus group/hiddencobra
+crowdedflounder/cheesetray,Unpacks and exeutes a RAT in memory,lazarus group/hiddencobra
+sharpstage,Backdoor that abuses Dropbox for C&C,molerats/gazacybergang
+dropbook,Uses Facebook and Simplenote for C&C,molerats/gazacybergang
+thanos,Ransomware written in C# that uses some anti-analysis techniques,
+evrial/evital/evrialstealer,Stealer known to be packaged with suprememiner,
+sality/salicode/salitystub/virussality,Infects PE files and shared drives to create a P2P botnet,
+dealply,Modular adware that is bundled with legitimate software installers,
+loocipher,Ransomware with .lcphr extension,
+lojax/lojack,UEFI rootkit,sofacy/sednit/fancybear/apt28
+anatova,Modular ransomware that can encrypt network shares,
+biskvit/biskvitlib,"Modular, multi-stage malware written in C#",
+grabbot,Botnet that can steal user information,
+dot/dotransom,Commercial ransomware with extension starting with .locked-,
+proteus,".NET botnet with coinmining, keylogging, and proxy functionality",
+pclocker/pcsurveylocker/surveylock,Ransomware that makes victims take a survey to unlock computer,
+cyperine/pycerine,Infostealer made by same author as nextmanhistory,
+nextmanhistory/nextmanhistorystealer/historystealer,Infostealer made by same author as cyperine,
+fsociety/soccrypt,Ransomware written in Python that can encrypt network shares,
+ozone/ozonerat,Commercial RAT targeting Germany,
+crypt38,Poorly-implemented ransomware with .crypt38 extension,
+herbst/crypherbst,Ransomware with .herbst extension,
+avatar/ratavar,Rootkit that uses Yahoo Groups for C&C,
+pinchduke,Based on ldpinch credential stealer,dukes/apt29/cozyduke/cozybear
