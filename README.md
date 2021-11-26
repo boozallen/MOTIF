@@ -64,15 +64,17 @@ This file contains an alias mapping for each of the 454 malware families in the 
 
 
 #### motif_reports.csv
-This file provides information gathered from our original survey of open-source threat reports. We identified 4,369 malware hashes with 595 distinct reported family names. However, we were unable to obtain some of the files, and we restricted the MOTIF dataset to only files in the PE file format. The reported hash, family, source, date, URL, and IOC URL of  not included in motif_dataset.jsonl can be found here.
+This file provides information gathered from our original survey of open-source threat reports. We identified 4,369 malware hashes with 595 distinct reported family names during the survey, but we were unable to obtain some of the files and we restricted the MOTIF dataset to only files in the PE file format. The reported hash, family, source, date, URL, and IOC URL of  not included in motif_dataset.jsonl can be found here.
 
 #### MOTIF.7z
 The disarmed malware samples are provided in this encrypted .7z file, which can be unzipped using the following password:
 
 ```i_assume_all_risk_opening_malware```
 
+Each file is named in the format MOTIF_MD5, representing the MD5 hash prior to when the file was disarmed.
+
 ## Benchmark Models
-We provide code for the ML models described in our paper, located in ```benchmarks/```. To support these models, code for modified versions of MalConv2 and EMBER are included in this repository.
+We provide code for the ML models described in our paper, located in ```benchmarks/```. To support these models, code for modified versions of [MalConv2](https://github.com/NeuromorphicComputationResearchProgram/MalConv2) and [EMBER](https://github.com/elastic/ember) are included in this repository.
 
 #### Requirements:
 Requirements can be installed using the following commands:
