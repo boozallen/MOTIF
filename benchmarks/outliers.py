@@ -9,7 +9,7 @@ from sklearn.svm import OneClassSVM
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 from sklearn.metrics import precision_recall_fscore_support
-from EMBER import read_vectorized_features
+from ember import read_vectorized_features
 
 RANDOM_STATE = 42
 
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Load feature vectors
-    X, y = read_vectorized_features(args.dataset_dir)
+    X, y = read_vectorized_features(args.dataset_dir, subset="train")
 
     # Malware families with only one "representative" will be outliers
     label_counts = Counter(y)

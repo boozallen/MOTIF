@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 import os
-import numpy as np
 import argparse
+import numpy as np
+import lightgbm as lgb
 from collections import Counter
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import accuracy_score
-from EMBER import read_vectorized_features, train_model
+from ember import read_vectorized_features
+
 
 RANDOM_STATE = 42
 
@@ -17,15 +19,21 @@ def dir_path(string):
         raise NotADirectoryError(string)
 
 
+def train_classifier(X, y, params={}):
+    dataset = lgb.Dataset(X, y)
+    clf = lgb.train(params, dataset)
+    return clf
+
+
 if __name__ == "__main__":
 
     # Parse command-line arguments
-    parser = argparse.ArgumentParser(description="Train LightGBM  model")
+    parser = argparse.ArgumentParser(description="Train LightGBM model")
     parser.add_argument("dataset_dir", type=dir_path, help="Path to directory containing MOTIF dataset")
     args = parser.parse_args()
 
     # Load feature vectors
-    X, y = read_vectorized_features(args.dataset_dir)
+    X, y = read_vectorized_features(args.dataset_dir, subset="train")
 
     # Keep only families with more than one sample
     label_counts = Counter(y)
@@ -50,7 +58,12 @@ if __name__ == "__main__":
         X_test, y_test = X_keep[test_idx], y_keep[test_idx]
 
         print("Training model on fold {}".format(i+1))
-        clf = train_model(X_train, y_train, params={"num_class": num_class, "verbose": 0})
+        params = {
+            "application": "multiclass",
+            "num_class": num_class,
+            "verbose": 0
+        }
+        clf = train_classifier(X_train, y_train, params=params)
         predictions = np.argmax(clf.predict(X_test), axis=1)
         accuracy = accuracy_score(y_test, predictions)
         accuracies.append(accuracy)
