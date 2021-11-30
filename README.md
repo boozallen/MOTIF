@@ -1,6 +1,6 @@
 # MOTIF Dataset
 
-The Malware Open-source Threat Intelligence Family (MOTIF) dataset contains 3,095 disarmed PE malware samples from 454 families, labeled with ground truth confidence. Labels were obtained by surveying thousands of open-source threat reports published by 14 major cybersecurity organizations between Jan. 1st, 2016 Jan. 1st, 2021. The dataset also provides a comprehensive alias mapping for each family and EMBER raw features for each file. All files in the dataset have been uploaded to VirusTotal.
+The Malware Open-source Threat Intelligence Family (MOTIF) dataset contains 3,095 disarmed PE malware samples from 454 families, labeled with ground truth confidence. Family labels were obtained by surveying thousands of open-source threat reports published by 14 major cybersecurity organizations between Jan. 1st, 2016 Jan. 1st, 2021. The dataset also provides a comprehensive alias mapping for each family and EMBER raw features for each file.
 
 Further information about the MOTIF dataset is provided in our paper: TODO ARXIV LINK
 
@@ -17,11 +17,23 @@ If you use the provided data or code, please make sure to cite our paper:
 }
 ```
 
+## Downloading the Dataset
+
+Due to the size of the dataset, you must use Git LFS in order to clone the repository. Installation instructions for Git LFS are linked [here](https://github.com/git-lfs/git-lfs). On Debian-based systems, the Git LFS package can be installed using:
+
+```sudo apt-get install git-lfs```
+
+Once Git LFS is installed, you can clone this repository using:
+
+```
+git lfs clone https://github.com/boozallen/MOTIF.git
+```
+
 ## Dataset Contents
 
 The main dataset is located in ```dataset/``` and contains the following files:
 
-#### motif_dataset.jsonl
+### motif_dataset.jsonl
 Each line of motif_dataset.jsonl is a .json object with the following entries:
 
 | Name | Description |
@@ -52,7 +64,7 @@ Each .json object also contains EMBER raw features (version 2) for the file:
 | exports | EMBER exports metadata |
 | datadirectories | EMBER data directories metadata |
 
-#### motif_families.csv
+### motif_families.csv
 
 This file contains an alias mapping for each of the 454 malware families in the MOTIF dataset. It also contains a succinct description of the family and the threat group or campaign that the family is attributed to (if any).
 
@@ -63,41 +75,45 @@ This file contains an alias mapping for each of the 454 malware families in the 
 | Attribution (If any) | Name of threat actor malware/campaign is attributed to |
 
 
-#### motif_reports.csv
-This file provides information gathered from our original survey of open-source threat reports. We identified 4,369 malware hashes with 595 distinct reported family names during the survey, but we were unable to obtain some of the files and we restricted the MOTIF dataset to only files in the PE file format. The reported hash, family, source, date, URL, and IOC URL of  not included in motif_dataset.jsonl can be found here.
+### motif_reports.csv
+This file provides information gathered from our original survey of open-source threat reports. We identified 4,369 malware hashes with 595 distinct reported family names during the survey, but we were unable to obtain some of the files and we restricted the MOTIF dataset to only files in the PE file format. The reported hash, family, source, date, URL, and IOC URL of any malware samples which did not make it into the final MOTIF dataset are located here.
 
-#### MOTIF.7z
-The disarmed malware samples are provided in this encrypted .7z file, which can be unzipped using the following password:
+### MOTIF.7z
+The disarmed malware samples are provided in this 1.47GB encrypted .7z file, which can be unzipped using the following password:
 
 ```i_assume_all_risk_opening_malware```
 
-Each file is named in the format MOTIF_MD5, representing the MD5 hash prior to when the file was disarmed.
+Each file is named in the format MOTIF_MD5, with MD5 indicating the file's hash prior to when it was disarmed.
+
+### X_train.dat and y_train.dat
+EMBERv2 feature vectors and labels are provided in X_train.dat and y_train.dat, respectively. Feature vectors were computed using LIEF v0.9.0. These files are named for compatibility with the EMBER read_vectorized_features() function. MOTIF is not split into a training or test set, and X_train.dat and y_train.dat contain feature vectors and labels for the entire dataset.
+
 
 ## Benchmark Models
-We provide code for the ML models described in our paper, located in ```benchmarks/```. To support these models, code for modified versions of [MalConv2](https://github.com/NeuromorphicComputationResearchProgram/MalConv2) and [EMBER](https://github.com/elastic/ember) are included in this repository.
+We provide code for training the ML models described in our paper, located in ```benchmarks/```. To support these models, code for modified versions of [MalConv2](https://github.com/NeuromorphicComputationResearchProgram/MalConv2) is included in the ```MalConv2/``` directory.
 
-#### Requirements:
-Requirements can be installed using the following commands:
+### Requirements:
+Packages required for training the ML models can be installed using the following commands:
+
 ```
 pip3 install -r requirements.txt
 python3 setup.py install
 ```
 
-#### Setup:
-Prior to training the LightGBM and outlier models, EMBER feature vectors must be computed for each malware sample. To maintain consistency with the original EMBER vectors, you may install LIEF v0.9.0 (Python 3.6 only).
+Training the LightGBM or outlier detection models also requires EMBER:
 
-In the ```EMBER/``` directory, run the following script to generate EMBER feature vectors for the motif dataset:
+```
+pip3 install git+https://github.com/elastic/ember.git
+```
 
-```python3 generate_vectors.py /path/to/MOTIF/dataset/```
-
-#### Training the models:
-The LightGBM model can be trained using the following command:
+### Training the models:
+The LightGBM model can be trained using the following command, where ```/path/to/MOTIF/dataset/``` indicates the path to the ```dataset/``` directory. 
 
 ```python3 lgbm.py /path/to/MOTIF/dataset/```
 
-The MalConv2 model can be trained using the following command:
+The MalConv2 model can be trained using the following command, where ```/path/to/MOTIF/MOTIF_defanged/``` indicates the path to the unzipped folder containing the disarmed malware samples:
 
-```python3 malconv.py /path/to/MOTIF/disarmed/files/ /path/to/MOTIF/dataset/motif_dataset.jsonl```
+```python3 malconv.py /path/to/MOTIF/MOTIF_defanged/ /path/to/MOTIF/dataset/motif_dataset.jsonl```
 
 The three outlier detection models can be trained using the following command:
 
