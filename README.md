@@ -2,7 +2,7 @@
 
 The Malware Open-source Threat Intelligence Family (MOTIF) dataset contains 3,095 disarmed PE malware samples from 454 families, labeled with ground truth confidence. Family labels were obtained by surveying thousands of open-source threat reports published by 14 major cybersecurity organizations between Jan. 1st, 2016 Jan. 1st, 2021. The dataset also provides a comprehensive alias mapping for each family and EMBER raw features for each file.
 
-Further information about the MOTIF dataset is provided in our paper: TODO ARXIV LINK
+Further information about the MOTIF dataset is provided in our [paper](https://arxiv.org/abs/2111.15031).
 
 If you use the provided data or code, please make sure to cite our paper:
 
@@ -11,7 +11,7 @@ If you use the provided data or code, please make sure to cite our paper:
       title={MOTIF: A Large Malware Reference Dataset with Ground Truth Family Labels},
       author={Robert J. Joyce and Dev Amlani and Charles Nicholas and Edward Raff},
       year={2021},
-      eprint={TODO},
+      eprint={2111.15031},
       archivePrefix={arXiv},
       primaryClass={cs.CR}
 }
