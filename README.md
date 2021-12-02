@@ -13,7 +13,7 @@ If you use the provided data or code, please make sure to cite our paper:
       year={2021},
       eprint={2111.15031},
       archivePrefix={arXiv},
-      primaryClass={cs.CR}
+      primaryClass={cs.LG}
 }
 ```
 
