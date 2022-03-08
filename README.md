@@ -7,13 +7,15 @@ Further information about the MOTIF dataset is provided in our [paper](https://a
 If you use the provided data or code, please make sure to cite our paper:
 
 ```
-@misc{joyce2021motif,
-      title={MOTIF: A Large Malware Reference Dataset with Ground Truth Family Labels},
-      author={Robert J. Joyce and Dev Amlani and Charles Nicholas and Edward Raff},
-      year={2021},
-      eprint={2111.15031},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{joyce2022motif,
+archivePrefix = {arXiv},
+arxivId = {arXiv:2111.15031v1},
+author = {Joyce, Robert J and Amlani, Dev and Nicholas, Charles and Raff, Edward},
+booktitle = {The AAAI-22 Workshop on Artificial Intelligence for Cyber Security (AICS)},
+eprint = {arXiv:2111.15031v1},
+title = {{MOTIF}: A Large Malware Reference Dataset with Ground Truth Family Labels},
+url = {https://github.com/boozallen/MOTIF},
+year = {2022}
 }
 ```
 
